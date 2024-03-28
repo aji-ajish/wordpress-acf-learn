@@ -1,0 +1,38 @@
+footer .footer-social a {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+footer .footer-social a img {
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width:991.98px) {
+	footer .footer-social a{
+		margin-left:8px;
+		margin-right:8px
+	}
+}
+
+.careers-widget #filter-by{
+	height: auto;
+	font-size: 12px;
+}
+.careers-widget #filter-by::placeholder {
+	font-size: 12px;
+}
+.careers-widget .srFilterRemote label {
+	display: inline;
+	font-size: 12px;
+}
+
+.annotated-list li { font-weight: 300 !important; }
+.annotated-list li strong { font-weight: 600 !important; }
+
+.cms ul li { 
+	font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 12px;
+    line-height: 1.7;
+    color: #3f3f41;
+}
